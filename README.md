@@ -16,7 +16,7 @@ The system combines multiple specialized agents that work together autonomously 
 
 ## Model Files
 
-The trained model file (`deep_neural_network.pth`) is not included in this repository due to its large size.
+The trained neural network model (`deep_neural_network.pth`) is excluded from this repository because of its large file size. The training pipeline and source code required to reproduce the model are included.
 
 To run the complete system:
 
@@ -63,21 +63,17 @@ Messaging Agent
 Notification + Dashboard Update
 ```
 
-### Planning Agent
+---
 
-Coordinates the entire workflow and decides which agent should perform each task.
+## 🏛️ System Architecture
 
-### Scanner Agent
+The system follows a multi-agent architecture where specialized agents collaborate to discover, evaluate, and recommend online deals.
 
-Retrieves new deals from RSS feeds and prepares candidate opportunities.
-
-### Ensemble Agent
-
-Combines predictions from multiple valuation models to estimate the true market value of products.
-
-### Messaging Agent
-
-Sends notifications when high-value opportunities are discovered.
+- Planning Agent → Coordinates workflow
+- Scanner Agent → Collects deals from RSS feeds
+- Ensemble Agent → Estimates product value using multiple models
+- Messaging Agent → Sends notifications for high-value opportunities
+- ChromaDB → Stores vector embeddings for retrieval and analysis
 
 ---
 
@@ -177,6 +173,17 @@ pip install -r requirements.txt
 ```bash
 python price_is_right.py
 ```
+
+---
+
+## 🔮 Future Improvements
+
+- Real-time deal monitoring
+- Additional RSS sources
+- Advanced ranking models
+- User preference personalization
+- Cloud deployment
+- Multi-channel notifications
 
 ---
 
