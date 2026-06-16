@@ -81,6 +81,12 @@ Sends notifications when high-value opportunities are discovered.
 
 ---
 
+# 📸 Application Screenshot
+
+![App Screenshot](https://github.com/SujithVarma-ai/agentic-ai-the-price-is-right/blob/main/Screenshot%202026-06-13%20222823.png)
+
+---
+
 ## 🔄 How It Works
 
 ### Step 1: Deal Collection
