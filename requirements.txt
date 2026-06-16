@@ -1,0 +1,12 @@
+openai
+gradio
+chromadb
+sentence-transformers
+transformers
+torch
+scikit-learn
+numpy
+pandas
+plotly
+python-dotenv
+feedparser
