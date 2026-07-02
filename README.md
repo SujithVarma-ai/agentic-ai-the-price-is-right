@@ -8,9 +8,9 @@ Built using Agentic AI principles, Retrieval-Augmented Generation (RAG), ChromaD
 
 ## 📌 Overview
 
-The Price Is Right is an Agentic AI application that continuously scans online deal sources, evaluates products using a collaborative agent framework, and surfaces the most promising opportunities.
+**Agentic AI: The Price Is Right** is a multi-agent AI application that automatically finds online deals and identifies the best buying opportunities.
 
-The system combines multiple specialized agents that work together autonomously to discover, analyze, and recommend deals.
+The system uses multiple AI agents to scan deals from RSS feeds, estimate the actual value of products, calculate potential discounts, and notify users about the best deals through a Gradio dashboard.
 
 ---
 
